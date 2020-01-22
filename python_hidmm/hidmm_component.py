@@ -24,7 +24,7 @@ class bcolors:
 
 
 #Config.set_library_file("/usr/lib/llvm-6.0/lib/libclang-6.0.so.1")
-Config.set_library_file("/usr/local/lib/libclang.so.7")
+Config.set_library_file("/usr/lib/libclang.so")
 index = clang.cindex.Index.create()
 
 top_function_name = ""
